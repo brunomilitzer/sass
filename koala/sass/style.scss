@@ -1,0 +1,56 @@
+/*! aqui comentario para arquivo compressado e para todos outros único arquivos */
+// Comentário no Sass
+body {
+	background: black;
+	font-size: 14px;
+}
+/*! Alinhamento */
+#main {
+	width: 97%;
+	p, div {
+		color: #000;
+		a {
+			text-decoration: none;
+		}
+		/*! Seletor pai */
+		&:hover {
+			text-decoration: underline;
+		}
+		&:visited {
+			color: purple;
+		}
+	}
+	h1 {
+		font-size: 150%;
+		color: red;
+	}
+}
+// Seletor pai
+#conteudo {
+	width: 97%;
+	&_principal {
+		color: #000;
+	}
+	&_secundario {
+		color: #000;
+	}
+	&_final {
+		color: #000;
+	}
+}
+
+// Interpolação
+$cor: black;
+$propriedade: font;
+/* Esse é um CSS da COR #{$cor} */
+
+.#{$cor} {
+	color: $cor;
+	#{$propriedade}: {
+		size: 14px;
+		style: italic;
+		weight: bold;
+	}
+}
+
+// namespace

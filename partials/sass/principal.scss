@@ -1,0 +1,9 @@
+@import 'variaveis';
+
+h1 {
+	color: $cor-titulo;
+	font-size: $tamanho;
+}
+p {
+	color: $cor-paragrafo;
+}

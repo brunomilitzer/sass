@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+#menu {
+  width: 100%;
+  background: green;
+  margin: 0;
+}
+#menu ul {
+  width: 1000px;
+  margin: 0 auto;
+}
+#menu ul li {
+  display: inline;
+}
+#menu ul li a {
+  line-height: 0;
+  padding: 25px 15px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+#menu ul li a:hover, #menu ul li a:focus {
+  background: #fff;
+  color: green;
+}
+
+/*# sourceMappingURL=style.css.map */

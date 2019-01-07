@@ -1,0 +1,29 @@
+@for $i from 1 to 5 {
+	
+	div.item-#{$i} {
+		background: #F35 * $i;
+	}
+}
+
+$cont: 1;
+
+$lista: green, yellow, blue;
+
+@each $cor in $lista {
+	div.item-#{$cont} {
+		color: $cor;
+	}
+
+	$cont: $cont + 1;
+}
+
+$cont1: 1;
+
+@while $cont1 < 5 {
+	
+	.item-#{$cont1} {
+
+		width: 50px * $cont1;
+	}
+	$cont1: $cont1 + 1;
+}

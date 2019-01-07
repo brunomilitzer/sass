@@ -1,0 +1,23 @@
+@function potencia($base, $expoente: 2, $unidade: px) {
+
+	$cont: 1;
+	$resultado: $base;
+
+	@while $cont < $expoente {
+
+		$resultado: $resultado * $base;
+		$cont: $cont + 1;
+	}
+
+	@return $resultado + (#{$unidade});
+}
+
+@function cubo($valor, $unidade: px) {
+	$res: $valor * $valor * $valor;
+
+	@return $res + (#{$unidade});
+}
+h1 {
+	font-size: potencia(3, 2, '%')
+	//font-size: cubo(2, '%');
+}

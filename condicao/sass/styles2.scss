@@ -1,0 +1,26 @@
+@mixin tema($horario) {
+
+	@if ($horario == manha) {
+
+		background: white;
+		color: black;
+
+	} @else if ($horario == tarde) {
+
+		background: blue;
+		color: white;
+
+	} @else if ($horario == noite) {
+
+		background: black;
+		color: white;
+	} @else {
+
+		background: yellow;
+		color: red;
+	}
+}
+
+body {
+	@include tema(dia)
+}

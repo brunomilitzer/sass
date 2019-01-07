@@ -1,0 +1,45 @@
+div.item-1 {
+  background: #ff3355;
+}
+
+div.item-2 {
+  background: #ff66aa;
+}
+
+div.item-3 {
+  background: #ff99ff;
+}
+
+div.item-4 {
+  background: #ffccff;
+}
+
+div.item-1 {
+  color: green;
+}
+
+div.item-2 {
+  color: yellow;
+}
+
+div.item-3 {
+  color: blue;
+}
+
+.item-1 {
+  width: 50px;
+}
+
+.item-2 {
+  width: 100px;
+}
+
+.item-3 {
+  width: 150px;
+}
+
+.item-4 {
+  width: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */

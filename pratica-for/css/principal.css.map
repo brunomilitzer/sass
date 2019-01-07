@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEC,KAAU;EACT,UAAU,EAAE,OAAa;;AAD1B,KAAU;EACT,UAAU,EAAE,OAAa;;AAD1B,KAAU;EACT,UAAU,EAAE,OAAa;;AAD1B,KAAU;EACT,UAAU,EAAE,OAAa;;AAD1B,KAAU;EACT,UAAU,EAAE,OAAa",
+"sources": ["../sass/principal.scss"],
+"names": [],
+"file": "principal.css"
+}
